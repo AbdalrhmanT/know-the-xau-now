@@ -19,7 +19,7 @@ except Exception as e:
     TvdfInterval = None
 
 # ========== إعدادات - عدل هنا حسب حاجتك ==========
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "PUT_YOUR_TOKEN_HERE")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8299388128:AAFqd0uLD1ITDiBBZXD6bSC2DaRkksGt0JU")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "7500525431"))  # ضع أيدي الأدمن هنا
 WALLET_ADDRESS = os.getenv("WALLET_ADDRESS", "UQDb-cfThq9yZgx0ls-PQWMRFkLD65u5cdy3ue6EjIVoivsE")
 SUBSCRIPTION_PRICE = 15.0
